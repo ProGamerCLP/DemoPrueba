@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>DEMO1</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" href="./assets/img/sena.png">
+</head>
+<body>
+	<!-- ====== Barra de navegacion ======-->
+	<div class="full-width NavBar">
+		<div class="full-width text-semi-bold NavBar-logo">
+			Observatorio Sectorial Digital
+		</div>
+		<nav class=" full-width NavBar-Nav">
+			<div class="full-width NavBar-Nav-bg hidden-md hidden-lg show-menu-mobile"></div>
+			<ul class="list-unstyled full-width menu-mobile-c">
+				<div class="full-width hidden-md hidden-lg header-menu-mobile">
+					<i class="fa fa-times header-menu-mobile-close-btn show-menu-mobile" aria-hidden="true"></i>
+					<i class="fa fa-user NavBar-Nav-icon header-menu-mobile-icon" aria-hidden="true"></i>
+					<a href="login.html" class="btn btn-info header-menu-mobile-btn">INICIAR SESIÓN</a>
+					<div class="divider"></div>
+					<a href="" class="btn btn-primary header-menu-mobile-btn">CRÉATE UNA CUENTA</a>
+				</div>
+				<li>
+					<a href="index.html">
+						<i class="fa fa-home fa-fw hidden-md hidden-lg" aria-hidden="true"></i> INICIO
+					</a>
+				</li>
+				<li>
+					<a href="help.html">
+						<i class="fa fa-life-ring fa-fw hidden-md hidden-lg" aria-hidden="true"></i> Comuniquese con nostros
+					</a>
+				</li>
+				<li class="hidden-xs hidden-sm"><a class="btn-PopUpLogin" href="#!">INICIAR SESIÓN</a></li>
+			</ul>
+		</nav>
+		<i class="fa fa-bars hidden-md hidden-lg btn-mobile-menu show-menu-mobile" aria-hidden="true"></i>
+	</div>
+	<!-- ====== PopUpLogin ======-->
+	<section class=" full-width PopUpLogin">
+		<ul class="nav nav-tabs nav-justified" role="tablist">
+			<li role="presentation" class="active"><a href="#LoginTab1" aria-controls="LoginTab1" role="tab" data-toggle="tab">Administrador</a></li>
+		</ul>
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane fade in active" id="LoginTab1">
+				<form action="login.html" style="padding-top: 15px;">
+					<div class="form-group">
+					    <input type="email" class="form-control input-lg" placeholder="Email" required="">
+					</div>
+					<div class="form-group">
+					    <input type="password" class="form-control input-lg" placeholder="Contraseña" required="">
+					</div>
+					<a class="text-left text-light" href="#!">No recuerdo mi contraseña</a>
+					<div class="checkbox full-width">
+					    <label>
+					      <input type="checkbox"> No cerrar sesión
+					    </label>
+					</div>
+					<button class="btn btn-danger btn-lg" type="submit">INICIAR SESIÓN</button>
+				</form>
+				<div class="full-width divider"></div>
+				<h4 class="text-center">¿Aún no tienes cuenta?</h4>
+				<a class="text-light" href="newaccount.html">CRÉATE UNA GRATIS</a>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="LoginTab2">
+				<form action="login.html" style="padding-top: 15px;">
+					<div class="form-group">
+					    <input type="email" class="form-control input-lg" placeholder="Email" required="">
+					</div>
+					<div class="form-group">
+					    <input type="password" class="form-control input-lg" placeholder="Contraseña" required="">
+					</div>
+					<a class="text-left text-light" href="#!">No recuerdo mi contraseña</a>
+					<div class="checkbox full-width">
+					    <label>
+					      <input type="checkbox"> No cerrar sesión
+					    </label>
+					</div>
+					<button class="btn btn-danger btn-lg" type="submit">INICIAR SESIÓN</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- ====== Contenido de pagina ======-->
+	<header class="full-width header-index">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="text-center text-light" style="color: #fc7323">TALENTO DIGITAL PARA TODOS</h1>
+					<h2 class="text-center text-light" style="color: #fc7323">Observatorio Sectorial Digital</h2>
+				</div>
+			</div>
+		</div>
+		<br><br>
+	</header>
+	<!-- ====== Sección de Categorias ======-->
+	<section class="section" id="Cat">
+		<h2 class="text-center text-light">Todas las categorías</h2>
+		<div class="container">
+			<div class="full-width container-category">
+				<a href="PorUnColombiaDigital.html" id="categori-1">
+					<i class="fa fa-laptop" aria-hidden="true"></i>
+					<span>Por un Colombia Digital</span>
+				</a>
+				<a href="#!" id="categori-2">
+					<i class="fa fa-users" aria-hidden="true"></i>
+					<span>Compromiso Digital</span>
+				</a>
+				<a href="#!" id="categori-3">
+					<i class="fa fa-home" aria-hidden="true"></i>
+					<span>Iniciativas</span>
+				</a>
+				<a href="#!" id="categori-4">
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					<span>Eventos</span>
+				</a>
+				<a href="#!" id="categori-5">
+					<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+					<span>Documentos</span>
+				</a>
+				<a href="#!" id="categori-6">
+					<i class="fa fa-hdd-o" aria-hidden="true"></i>
+					<span>Blog</span>
+				</a>
+				<a href="#!" id="categori-7">
+					<i class="fa fa-database" aria-hidden="true"></i>
+					<span>Recursos Disponibles</span>
+				</a>
+				<a href="#!" id="categori-9">
+					<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+					<span>Equipo Mesa Sectorial</span>
+				</a>
+				<a href="#!" id="categori-10">
+					<i class="fa fa-suitcase" aria-hidden="true"></i>
+					<span>Talento Digital</span>
+				</a>
+				<a href="#Cat" id="categori-12">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<span>TODAS LAS CATEGORIAS</span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- ====== Sección de galeria ======-->
+	<!-- <h1 class="TitleG">Galeria</h1>
+	<span clase="linea"></span>
+	<section class="galeria">
+		<a href="" src=""><img src="./assets/img/Primera.png"alt=""></a>
+		<a href="" src=""><img src="./assets/img/segunda.png"alt=""></a>
+		<a href="" src=""><img src="./assets/img/tercera.png"alt=""></a>
+		<a href="" src=""><img src="./assets/img/cuarta.png" alt=""></a>
+		<a href="" src=""><img src="./assets/img/sexta.png"  alt=""></a>
+		<a href="" src="#image2"><img src="" alt=""></a>
+	</section> -->
+
+	<!-- ====== Pie de pagina ======-->
+	<footer class="full-width footer">
+		<div class="container">
+			<div class="col-xs-12">
+				<ul class="list-unstyled text-center full-width footer-copyright">
+					<li>&copy; Obsevatorio Secotirla Digital - Todos los derechos reservados</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

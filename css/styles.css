@@ -1,0 +1,29 @@
+/* ====== Sección Galeria Index ====== */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+	font-weight: 400;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 40px;
+}
+.linea {
+	background: #550b51;
+	height: 5px;
+	width: 100%;
+	display: block;
+}
+.galeria{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px 1fr));
+	width: 95%;
+	height: 25%;
+	margin: auto;
+	grid-gap: 10px;
+}

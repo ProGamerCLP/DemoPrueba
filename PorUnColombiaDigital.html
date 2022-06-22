@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>DEMO1</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" href="./assets/img/sena.png">
+</head>
+<body>
+	<!-- ====== Barra de navegacion ======-->
+	<div class="full-width NavBar">
+		<div class="full-width text-semi-bold NavBar-logo">
+			Observatorio Sectorial Digital
+		</div>
+		<nav class=" full-width NavBar-Nav">
+			<div class="full-width NavBar-Nav-bg hidden-md hidden-lg show-menu-mobile"></div>
+			<ul class="list-unstyled full-width menu-mobile-c">
+				<div class="full-width hidden-md hidden-lg header-menu-mobile">
+					<i class="fa fa-times header-menu-mobile-close-btn show-menu-mobile" aria-hidden="true"></i>
+					<i class="fa fa-user NavBar-Nav-icon header-menu-mobile-icon" aria-hidden="true"></i>
+					<a href="login.html" class="btn btn-info header-menu-mobile-btn">INICIAR SESIÓN</a>
+					<div class="divider"></div>
+					<a href="CrearCuenta.html" class="btn btn-primary header-menu-mobile-btn">CRÉATE UNA CUENTA</a>
+				</div>
+				<li>
+					<a href="index.html">
+						<i class="fa fa-home fa-fw hidden-md hidden-lg" aria-hidden="true"></i> INICIO
+					</a>
+				</li>
+				<li>
+					<a href="help.html">
+						<i class="fa fa-life-ring fa-fw hidden-md hidden-lg" aria-hidden="true"></i> Comuniquese con nostros
+					</a>
+				</li>
+				<li class="hidden-xs hidden-sm"><a class="btn-PopUpLogin" href="#!">INICIAR SESIÓN</a></li>
+				<li class="hidden-xs hidden-sm"><i class="fa fa-user NavBar-Nav-icon btn-PopUpLogin" aria-hidden="true"></i></li>
+			</ul>
+		</nav>
+		<i class="fa fa-bars hidden-md hidden-lg btn-mobile-menu show-menu-mobile" aria-hidden="true"></i>
+	</div>
+	<!-- ====== PopUpLogin ======-->
+	<section class=" full-width PopUpLogin">
+		<ul class="nav nav-tabs nav-justified" role="tablist">
+			<li role="presentation" class="active"><a href="#LoginTab1" aria-controls="LoginTab1" role="tab" data-toggle="tab">PARTICULAR</a></li>
+			<li role="presentation"><a href="#LoginTab2" aria-controls="LoginTab2" role="tab" data-toggle="tab">TIENDA VIRTUAL</a></li>
+		</ul>
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane fade in active" id="LoginTab1">
+				<form action="login.html" style="padding-top: 15px;">
+					<div class="form-group">
+					    <input type="email" class="form-control input-lg" placeholder="Email" required="">
+					</div>
+					<div class="form-group">
+					    <input type="password" class="form-control input-lg" placeholder="Contraseña" required="">
+					</div>
+					<a class="text-left text-light" href="#!">No recuerdo mi contraseña</a>
+					<div class="checkbox full-width">
+					    <label>
+					      <input type="checkbox"> No cerrar sesión
+					    </label>
+					</div>
+					<button class="btn btn-danger btn-lg" type="submit">INICIAR SESIÓN</button>
+				</form>
+				<div class="full-width divider"></div>
+				<h4 class="text-center">¿Aún no tienes cuenta?</h4>
+				<a class="text-light" href="newaccount.html">CRÉATE UNA GRATIS</a>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="LoginTab2">
+				<form action="login.html" style="padding-top: 15px;">
+					<div class="form-group">
+					    <input type="email" class="form-control input-lg" placeholder="Email" required="">
+					</div>
+					<div class="form-group">
+					    <input type="password" class="form-control input-lg" placeholder="Contraseña" required="">
+					</div>
+					<a class="text-left text-light" href="#!">No recuerdo mi contraseña</a>
+					<div class="checkbox full-width">
+					    <label>
+					      <input type="checkbox"> No cerrar sesión
+					    </label>
+					</div>
+					<button class="btn btn-danger btn-lg" type="submit">INICIAR SESIÓN</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- ====== Contenido de pagina ======-->
+	<header class="full-width header-index">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="text-center text-light" style="color: #fc7323">TALENTO DIGITAL PARA TODOS</h1>
+					<h2 class="text-center text-light" style="color: #fc7323">Observatorio Sectorial Digital</h2>
+				</div>
+			</div>
+		</div>
+		<br><br>
+	</header>
+	<section class="section" id="Cat">
+		<h2 class="text-center text-light">Todas las categorías</h2>
+		<div class="container">
+			<div class="full-width container-category">
+				<a href="#!" id="categori-1">
+					<i class="fa fa-laptop" aria-hidden="true"></i>
+					<span>Por un Colombia Digital</span>
+				</a>
+				<a href="#!" id="categori-2">
+					<i class="fa fa-users" aria-hidden="true"></i>
+					<span>Compromiso Digital</span>
+				</a>
+				<a href="#!" id="categori-3">
+					<i class="fa fa-home" aria-hidden="true"></i>
+					<span>Iniciativas</span>
+				</a>
+				<a href="#!" id="categori-4">
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					<span>Eventos</span>
+				</a>
+				<a href="#!" id="categori-5">
+					<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+					<span>Documentos</span>
+				</a>
+				<a href="#!" id="categori-6">
+					<i class="fa fa-hdd-o" aria-hidden="true"></i>
+					<span>Blog</span>
+				</a>
+				<a href="#!" id="categori-7">
+					<i class="fa fa-database" aria-hidden="true"></i>
+					<span>Recursos Disponibles</span>
+				</a>
+				<a href="#!" id="categori-9">
+					<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+					<span>Equipo Mesa Sectorial</span>
+				</a>
+				<a href="#!" id="categori-10">
+					<i class="fa fa-suitcase" aria-hidden="true"></i>
+					<span>Talento Digital</span>
+				</a>
+				<a href="#Cat" id="categori-12">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<span>TODAS LAS CATEGORIAS</span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+    <!-- ====== Primera Sección ====== -->
+    <section id="comp-kgthf65d" class="_3d64y">
+        <div id="bgLayers_comp-kgthf65d" data-hook="bgLayers" class="_3wnIc">
+          <div data-testid="colorUnderlay" class="_3KzuS _3SQN-"></div>
+          <div id="bgMedia_comp-kgthf65d" class="_2GUhU"></div>
+        </div>
+        <div data-testid="columns" class="_1uldx">
+          <div id="comp-kgthf6b2" class="_1vNJf">
+            <div id="bgLayers_comp-kgthf6b2" data-hook="bgLayers" class="_3wnIc">
+              <div data-testid="colorUnderlay" class="_3KzuS _3SQN-"></div>
+              <div id="bgMedia_comp-kgthf6b2" class="_2GUhU"></div>
+            </div>
+            <div
+              data-mesh-id="comp-kgthf6b2inlineContent"
+              data-testid="inline-content"
+              class=""
+            >
+              <div
+                data-mesh-id="comp-kgthf6b2inlineContent-gridContainer"
+                data-testid="mesh-container-content"
+              >
+                <div id="comp-kgtigpo5" class="_1Q9if" data-testid="richTextElement">
+                  <h2
+                    class="font_2"
+                    style="line-height: 1.2em; text-align: center; font-size: 55px"
+                  >
+                    <span style="letter-spacing: 0.02em"
+                      ><span class="color_11">Peak Experiences</span></span
+                    >
+                  </h2>
+                </div>
+                <div
+                  id="comp-kgtif9k8"
+                  class="_2Jgim _3Ebtn ignore-focus"
+                  role="region"
+                  tabindex="-1"
+                  aria-label="Slideshow"
+                >
+                  <div data-testid="shadowLayer" class="_2MKmI"></div>
+                  <div
+                    data-testid="slidesWrapper"
+                    aria-live="off"
+                    class="_9R56T _1DL_h"
+                  >
+                    <div id="comp-kgtif9li" class="_30khq _1RCYt DowXu">
+                      <div
+                        id="bgLayers_comp-kgtif9li"
+                        data-hook="bgLayers"
+                        class="_3wnIc _1FJJ6"
+                      >
+                        <div data-testid="colorUnderlay" class="_3KzuS _3SQN-"></div>
+                        <div id="bgMedia_comp-kgtif9li" class="_2GUhU"></div>
+                      </div>
+                      <div class="_2uaqg"></div>
+                      <div
+                        data-mesh-id="comp-kgtif9liinlineContent"
+                        data-testid="inline-content"
+                        class=""
+                      >
+                        <div
+                          data-mesh-id="comp-kgtif9liinlineContent-gridContainer"
+                          data-testid="mesh-container-content"
+                        >
+                          <div
+                            id="comp-kgtilqnt"
+                            class="_1Q9if"
+                            data-testid="richTextElement"
+                          >
+                            <p
+                              class="font_8"
+                              style="
+                                line-height: 1.7em;
+                                text-align: center;
+                                font-size: 17px;
+                              "
+                            >
+                              <span class="color_11"
+                                ><span style="letter-spacing: 0.02em"
+                                  >“I'm a testimonial. Click to edit me and add text
+                                  that says something nice about you and your
+                                  services. Let your customers review you and tell
+                                  their friends how great you are.”</span
+                                ></span
+                              >
+                            </p>
+                          </div>
+                          <div
+                            id="comp-kgtimk90"
+                            class="_1Q9if"
+                            data-testid="richTextElement"
+                          >
+                            <p
+                              class="font_8"
+                              style="
+                                line-height: 1.7em;
+                                text-align: center;
+                                font-size: 17px;
+                              "
+                            >
+                              <span class="color_11"
+                                ><span style="letter-spacing: 0.02em"
+                                  >Jason</span
+                                ></span
+                              >
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="comp-kgtj78bb" class="_30khq _31_kx _2Q7R4">
+                      <div
+                        id="bgLayers_comp-kgtj78bb"
+                        data-hook="bgLayers"
+                        class="_3wnIc _1FJJ6"
+                      >
+                        <div data-testid="colorUnderlay" class="_3KzuS _3SQN-"></div>
+                        <div id="bgMedia_comp-kgtj78bb" class="_2GUhU"></div>
+                      </div>
+                      <div class="_2uaqg"></div>
+                      <div
+                        data-mesh-id="comp-kgtj78bbinlineContent"
+                        data-testid="inline-content"
+                        class=""
+                      >
+                        <div
+                          data-mesh-id="comp-kgtj78bbinlineContent-gridContainer"
+                          data-testid="mesh-container-content"
+                        >
+                          <div
+                            id="comp-kgtj78cq"
+                            class="_1Q9if"
+                            data-testid="richTextElement"
+                          >
+                            <p
+                              class="font_8"
+                              style="
+                                line-height: 1.7em;
+                                text-align: center;
+                                font-size: 17px;
+                              "
+                            >
+                              <span class="color_11"
+                                ><span style="letter-spacing: 0.02em"
+                                  >“I'm a testimonial. Click to edit me and add text
+                                  that says something nice about you and your
+                                  services. Let your customers review you and tell
+                                  their friends how great you are.”</span
+                                ></span
+                              >
+                            </p>
+                          </div>
+                          <div
+                            id="comp-kgtj78cs"
+                            class="_1Q9if"
+                            data-testid="richTextElement"
+                          >
+                            <p
+                              class="font_8"
+                              style="
+                                line-height: 1.7em;
+                                text-align: center;
+                                font-size: 17px;
+                              "
+                            >
+                              <span class="color_11"
+                                ><span style="letter-spacing: 0.02em">Tom</span></span
+                              >
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <nav aria-label="Slides" class="_281t-">
+                    <ol class="_2UmXg">
+                      <li aria-current="true">
+                        <a
+                          href="./#comp-kgtif9li"
+                          aria-label="Slide  1"
+                          class="_3clGI _2HGJH"
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="./#comp-kgtiuvn5"
+                          aria-label="Slide  2"
+                          class="_3clGI"
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="./#comp-kgtj78bb"
+                          aria-label="Slide  3"
+                          class="_3clGI"
+                        ></a>
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="comp-kgthgamu" class="_1vNJf">
+            <div id="bgLayers_comp-kgthgamu" data-hook="bgLayers" class="_3wnIc">
+              <div data-testid="colorUnderlay" class="_3KzuS _3SQN-"></div>
+              <div id="bgMedia_comp-kgthgamu" class="_2GUhU">
+                <wix-image
+                  id="img_comp-kgthgamu"
+                  class="_1-6YJ _3SQN- _2L00W _1Q5R5 bgImage"
+                  data-image-info='{"containerId":"comp-kgthgamu","alignType":"center","displayMode":"fill","imageData":{"width":5360,"height":3573,"uri":"ea71bb_089a358144c24d8492b9abb190cb43b6~mv2.jpg","displayMode":"fill"}}'
+                  data-has-bg-scroll-effect=""
+                  data-bg-effect-name=""
+                  data-image-zoomed=""
+                  data-has-ssr-src=""
+                  data-src="https://static.wixstatic.com/media/ea71bb_089a358144c24d8492b9abb190cb43b6~mv2.jpg/v1/fill/w_341,h_477,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_089a358144c24d8492b9abb190cb43b6~mv2.jpg"
+                  ><img
+                    src="https://static.wixstatic.com/media/ea71bb_089a358144c24d8492b9abb190cb43b6~mv2.jpg/v1/fill/w_341,h_477,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_089a358144c24d8492b9abb190cb43b6~mv2.jpg"
+                    alt=""
+                    style="
+                      width: 341px;
+                      height: 477px;
+                      object-fit: cover;
+                      object-position: 50% 50%;
+                    "
+                /></wix-image>
+              </div>
+            </div>
+            <div
+              data-mesh-id="comp-kgthgamuinlineContent"
+              data-testid="inline-content"
+              class=""
+            >
+              <div
+                data-mesh-id="comp-kgthgamuinlineContent-gridContainer"
+                data-testid="mesh-container-content"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+	<!-- ====== Pie de pagina ======-->
+	<footer class="full-width footer">
+		<div class="container">
+			<div class="col-xs-12">
+				<ul class="list-unstyled text-center full-width footer-copyright">
+					<li>&copy; Copyright Obsevatorio Secotirla Digital - Todos los derechos reservados</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
